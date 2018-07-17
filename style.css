@@ -1,26 +1,261 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+html,body{
+  height:100%;
+  width:100%;
+  font-family:'Poppins', sans-serif;
+  color:#222222;
+}
 
+.navbar{
+  padding: .8rem;
+}
 
+.navbar-nav li{
+  padding-right: 20px;
+}
 
+.nav-link{
+  font-size:1.1em !important;
+}
 
+.carousel-inner img{
+  width:100%;
+  height:100%;
+  filter:blur(5px);
+}
 
+.carousel-caption{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
 
+.carousel-caption h1{
+  font-size:500%;
+  font-family:'Tech Noir'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+}
 
+.carousel-caption h3{
+  font-size:200%;
+  font-family:'Adobe Caslon Pro'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
 
+.jumbotron{
+  border-radius:0;
+  padding:1rem;
+}
 
+.padding{
+  padding-bottom: 2rem;
+}
+
+.welcome{
+  width:75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.fa-java{
+  color:#DC143C;
+}
+
+.fa-code{
+  color:#E54D26;
+}
+
+.fa-python{
+  color:#FFD700 ;
+}
+
+.fa-js-square{
+  color:#6495ED;
+}
+
+.fa-html5{
+  color:#B22222;
+}
+
+.fa-css3-alt{
+  color:#1E90FF;
+}
+
+.fa-database{
+  color:#228B22;
+}
+
+.fa-java, .fa-code, .fa-python, .fa-js-square, .fa-html5, .fa-css3-alt, .fa-database{
+  font-size:4em; 
+  margin:1rem;
+}
+
+.skillcard {
+  background-color: #F0F8FF;
+  color:#222222;
+}
+
+.cardhead{
+  background-color: #D5D5D5;
+}
+
+.social a{
+  font-size:4.5em;
+  padding:3rem;
+}
+
+.fa-linkedin{
+  color:#4682B4;
+}
+
+.fa-github-square{
+  color:#222222;
+}
+
+.fa-linkedin:hover, 
+.fa-github-square:hover{
+  color:#d5d5d5;
+}
+
+footer{
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width:95%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+hr{
+  width:95%;
+}
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
 
+@media(max-width:1440px){
+  .carousel-caption{
+  top:45%;
+}
+
+.carousel-caption h1{
+  font-size:350%;
+  font-family:'Tech Noir'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+}
+
+.carousel-caption h3{
+  font-size:200%;
+  font-family:'Adobe Caslon Pro'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+  padding-bottom: .2rem;
+}
+
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+}
+
+@media (max-width: 992px) {
+  .social a{
+    font-size:4em;
+    padding:2rem;
   }
+
+  .carousel-caption{
+  top:45%;
+}
+
+.carousel-caption h1{
+  font-size:300%;
+  font-family:'Tech Noir'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+}
+
+.carousel-caption h3{
+  font-size:180%;
+  font-family:'Adobe Caslon Pro'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+  padding-bottom: .2rem;
+}
+
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+
+}
 @media (max-width: 768px) {
-  
+  .carousel-caption{
+  top:40%;
+}
+
+.carousel-caption h1{
+  font-size:250%;
+  font-family:'Tech Noir'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+}
+
+.carousel-caption h3{
+  font-size:140%;
+  font-family:'Adobe Caslon Pro'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+  padding-bottom: .2rem;
+}
+
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+
+.display-4{
+  font-size:200%;
+}
+
 }
 @media (max-width: 576px) {
-  
+  .carousel-caption{
+  top:40%;
 }
 
+.carousel-caption h1{
+  font-size:150%;
+  font-family:'Tech Noir'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+}
+
+.carousel-caption h3{
+  font-size:100%;
+  font-family:'Adobe Caslon Pro'; 
+  color:#F0F8FF; 
+  text-transform: uppercase;
+  padding-bottom: .2rem;
+}
+
+.carousel-caption .btn{
+  font-size: 80%;
+  padding: 4px 8px;
+}
+
+.carousel-indicators{
+  display:none;
+}
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -64,10 +299,6 @@ figure {
     padding: 1rem;
 }
 
-
-
-
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -84,11 +315,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
