@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<!-- Navigation -->
+<!-- Navigation Bar -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed" id="home">
 <div class="container-fluid">
 	<a class="navbar-brand" href="#" style="text-decoration: none; font-family: BLACK">Welcome</a>
@@ -22,30 +22,30 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-ite active">
-				<a class="nav-link" href="#home">Home</a>
+			<li class="nav-item active">
+				<a class="nav-link colora" href="#home">Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#aboutme">About Me</a>
+				<a class="nav-link colora" href="#aboutme">About Me</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#skill">What I Know</a>
+				<a class="nav-link colora" href="#skill">What I Know</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#interest">What I Have</a>
+				<a class="nav-link colora" href="#interest">What I Have</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#portfolio">Portfolio</a>
+				<a class="nav-link colora" href="#portfolio">Portfolio</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#connect">Connect</a>
+				<a class="nav-link colora" href="#connect">Connect</a>
 			</li>
 		</ul>
 	</div>
 </div>
 </nav>
 
-<!--- Image Slider -->
+<!--- Home Section -->
 <div id="slider" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 		<li class="active" data-target="#slider" data-slide-to="0">
@@ -89,7 +89,7 @@
 	</div>
 </div>
 
-<!--- Jumbotron -->
+<!--- About Me Section -->
 
 <div class="container-fluid" id="aboutme">
 	<div class="row jumbotron">
@@ -109,7 +109,8 @@
 	</div>
 </div>
 
-<!--- Three Column Section -->
+<!--- Skills Section -->
+
 <div class="container-fluid padding">
 	<div class="row text-center padding" id="skill">
 		<div class="col-12">
@@ -130,29 +131,29 @@
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fab fa-python"></i>
 			<h3 class="lead" style="font-weight:500;">Python</h3>
-			<p class="lead">Self learning online with tutorials and execises. Experienced building web apps with Django frameworks and have basic knowledge of Machine Learning.</p>
+			<p class="lead">Self learning online with tutorials and execises. Have some basic knowledge in Django frameworks and Data Science such as Numpy.</p>
 		</div>
 
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fab fa-js-square"></i>
 			<h3 class="lead" style="font-weight:500;">JavaScript</h3>
-			<p class="lead">Self learning online with tutorials and exercises. Experienced building web apps with Jquery and React.</p>
+			<p class="lead">Self learning online with tutorials and exercises. Have some basic knowledge in React and Node. (Beginner basic)</p>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fas fa-code"></i>
 			<h3 class="lead" style="font-weight:500;">C++</h3>
-			<p class="lead">Self learning online with tutorials and exercises. Experienced building small games with Unreal Engine 4.</p>
+			<p class="lead">Self learning online with tutorials and exercises due to interest in Game Development. On the way of learning the game engines and mechanics in Unreal Engine 4 and Unity.</p>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fab fa-html5"></i>
 			<h3 class="lead" style="font-weight:500;">HTML5</h3>
-			<p class="lead">Learn through internships work and tasks. Experienced building frontend design of client project based on designer wireframe.</p>
+			<p class="lead">Learn through internships work and tasks. Experienced building frontend design of client project based on designer wireframe and experienced building website with Bootstrap 4. (This Website)</p>
 		</div>
 
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fab fa-css3-alt"></i>
 			<h3 class="lead" style="font-weight:500;">CSS3</h3>
-			<p class="lead">Learn through internships work and tasks. Experienced building frontend design of client project based on designer wireframe.</p>
+			<p class="lead">Learn through internships work and tasks. Experienced building frontend design of client project based on designer wireframe and experienced building website with Bootstrap 4. (This Website)</p>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="fas fa-database"></i>
@@ -167,8 +168,9 @@
 	</div>
 </div>
 
-<!--- Card Row -->
-<div class="container-fluid padding" id="interest">
+<!--- Personalities Section -->
+
+<div class="container-fluid padding" id="interest" style="width:100%;">
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4">What I Have?</h1>
@@ -178,7 +180,7 @@
 	</div>
 	<div id="accordion">
   		<div class="card">
-    		<div class="card-header cardhead" id="headingOne">
+    		<div class="card-header cardhead col-12" id="headingOne">
       			<h5 class="mb-0">
         			<button class="btn btn-link" style="text-decoration: none;" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Work with Team Effectively
         			</button>
@@ -187,7 +189,7 @@
 
     		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       			<div class="card-body skillcard">
-        			<p class="lead">Able to work with team in order to ensure the codes responds to their needs throughout the development life cycle. Furthermore, capable of work independently when needed too.</p>
+        			<p class="lead" style="text-align:justify;">Able to work with team in order to ensure the codes responds to their needs throughout the development life cycle. Furthermore, capable of work independently when needed too.</p>
       			</div>
       		</div>
   		</div>
@@ -201,21 +203,21 @@
     		</div>
     		<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       			<div class="card-body skillcard">
-        			<p class="lead">Capable of learn new technologies or new rules quick and able to adapt to any work environment. I will be able to learn and improve from past mistakes too.</p>
+        			<p class="lead" style="text-align:justify;">Capable of learn new technologies or new rules quick and able to adapt to any work environment. I will be able to learn and improve from past mistakes too.</p>
       			</div>
     		</div>
   		</div>
 
   		<div class="card">
     		<div class="card-header cardhead" id="headingThree">
-      			<h5 class="mb-0">
-        			<button class="btn btn-link collapsed" style="text-decoration: none;" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Positive Attitude and Good Communication Skills
+      			<h5 class="mb-0 cardtitle">
+        			<button class="btn btn-link collapsed" style="text-decoration: none;" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Positive Attitude and Good Communication
         			</button>
       			</h5>
     		</div>
     		<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       			<div class="card-body skillcard">
-        			<p class="lead">Have a positive personalities and be optimistic about life. Capable of communicate with people with friendly attitude and able to lead on a team if needed.</p>
+        			<p class="lead" style="text-align:justify;">Have a positive personalities and be optimistic about life. Capable of communicate with people with friendly attitude and able to lead on a team if needed.</p>
       			</div>
     		</div>
   		</div>
@@ -229,7 +231,7 @@
     		</div>
     		<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       			<div class="card-body skillcard">
-        			<p class="lead">Able to wrap up and pay good attention to details to avoid any small mistakes.</p>
+        			<p class="lead" style="text-align:justify;">Able to wrap up and pay good attention to details to avoid any small mistakes.</p>
       			</div>
     		</div>
   		</div>
@@ -243,7 +245,7 @@
     		</div>
     		<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
       			<div class="card-body skillcard">
-        			<p class="lead">Capable of multi-tasking and able to complete the task in given time frame.Have well management on both time and projects.</p>
+        			<p class="lead" style="text-align:justify;">Capable of multi-tasking and able to complete the task in given time frame.Have well management on both time and projects.</p>
       			</div>
     		</div>
   		</div>
@@ -257,7 +259,7 @@
     		</div>
     		<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
       			<div class="card-body skillcard">
-        			<p class="lead">Have interest to IT and computers since I was 13. Always look for more to learn and excited about the technologies in the future and how will them change the world.</p>
+        			<p class="lead" style="text-align:justify;">Have interest to IT and computers since I was 13. Always look for more to learn and excited about the technologies in the future and how will them change the world.</p>
       			</div>
     		</div>
   		</div>
@@ -265,7 +267,8 @@
 </div>
 
 
-<!--- Fixed background -->
+<!--- Background Section -->
+
 <figure>
 	<div class="fixed-wrap">
 		<div id="fixed">
@@ -283,15 +286,17 @@
 		<hr>
 	</div>
 </div>
-<!--- Cards -->
+
+<!--- Portfolio Section -->
+
 <div class="container-fluid padding">
 	<div class="row padding">
 		<div class="col-md-4">
 			<div class="card">
 				<img class="card-img-top" src="img/Research.jpg"/>
 				<div class="card-body">
-					<h4 class="card-title">Data Architecture Shift from SQL to NoSQL</h4>
-					<p class="card-text" style="text-align: justify;">Employer Project given by Dell Malaysia that focused on research and documentation. Completed with other two course mates and presented to Dell Malaysia on 5 Dec 2017.</p>
+					<h4 class="card-title">Research Employer Project</h4>
+					<p class="card-text" style="text-align: justify;">Employer Project given by Dell Malaysia entitled 'Data Architecture Shift from SQL to NoSQL' Completed with other two course mates and presented to Dell Malaysia on 5 Dec 2017.</p>
 					<a href="https://www.dropbox.com/s/w08xxs73sxyg6th/Data%20Architecture%20Shift%20From%20SQL%20To%20NoSQL.pdf?dl=0" target="_blank" class="btn btn-outline-secondary">View Document</a>
 				</div>
 			</div>
@@ -302,7 +307,7 @@
 				<img class="card-img-top" src="img/Project.jpg"/>
 				<div class="card-body">
 					<h4 class="card-title">Final Year Project</h4>
-					<p class="card-text" style="text-align: justify;">An UWP Application scrape data from Twitter, analyzed the tweets content and eventually filter out the suspected cyberbully contents then notifies the user.</p>
+					<p class="card-text" style="text-align: justify;">An UWP Application that scrape data from Twitter, analyzed the tweets content and eventually filter out the suspected cyberbully tweets using LUIS by Microsoft then notifies the user.</p>
 					<a href="https://github.com/PeiErnLim95/Final-Year-Project" target="_blank" class="btn btn-outline-secondary">View Project</a>
 				</div>
 			</div>
@@ -311,7 +316,9 @@
 	</div>
 </div>
 <hr>
-<!--- Connect -->
+
+<!--- Connect Section -->
+
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-12">
@@ -328,7 +335,8 @@
 	</div>
 </div>
 
-<!--- Footer -->
+<!--- Footer Section-->
+
 <footer>
 	<div class="container-fluid padding" id="connect">
 		<div class="row text-center">
