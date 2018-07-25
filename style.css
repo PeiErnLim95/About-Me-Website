@@ -120,8 +120,13 @@ html,body{
   color:#222222;
 }
 
+.fa-file{
+  color:#2F4F4F;
+}
+
 .fa-linkedin:hover, 
-.fa-github-square:hover{
+.fa-github-square:hover,
+.fa-file:hover{
   color:#d5d5d5;
 }
 
