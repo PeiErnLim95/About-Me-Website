@@ -8,4 +8,4 @@ Anything I can improve kindly tell me please.
 
 Thank you and appreciates your stop by!
 
-This sites has been hosted on Award Space: http://peiernlim.dx.am/
+This sites has been hosted on GitHub Pages: https://peiernlim95.github.io
